@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    outline: none; 
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    scroll-behavior: smooth;
+    background-color: rgb(104, 48, 76);
+}
+
+p
+{
+    font-weight: 300;
+    color: white;
+}
+
+.banner
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(images/bg.jpeg);
+    background-size: cover;
+}
+.banner .content
+{
+    max-width: 900px;
+    text-align: center;
+}
+.banner .content h2
+{
+    font-size: 5em;
+    color: #fff;
+}
+.banner .content p
+{
+font-size: 1em;
+color: #fff;
+}
+.btn
+{
+    font-size: 1em;
+    color: #fff;
+    background: #ff0157;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-transform- uppercase;
+    text-decoration-none;
+    letter-spacing: 2px;
+    transition: 0.5es;
+}
+.btn:hover
+{
+    letter-spacing: 6px;
+}
+header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 10000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+header .sticky
+{
+    background: #fff;
+    padding: 10px 100px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+}
+header .logo
+{
+    color: #fff;
+    font-weight: 700;
+    font-size:2em;
+    text-decoration:none;
+
+}
+header .sticky .logo
+{
+    color: #111;
+    
+}
+header .logo span
+{
+    color: #ff0157;
+}
+header .navigation
+{
+    position: relative;
+    display:flex;  
+}
+header .navigation li
+{
+    list-style: none;
+    margin-left: 30px;
+
+}
+header .navigation li a
+{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+
+}
+header .sticky .navigation li a
+{
+    color: #111;
+}
+header .navigation li a:hover{
+    color: #ff0157;
+}
+section
+{
+    padding: 100px;
+    
+}
+}
+.row
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.row .col50
+{
+    position: relative;
+    width: 48%;
+}
+.titleText
+{
+    color: white;
+    font-size: 2em;
+    font-weight: 300;
+
+}
+.titleText span
+{
+    color: #ff0157;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.row .col50 .imgBx
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.row .col50 .imgBx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.title
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.support .content
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.support .content .box
+{
+    width: 340px;
+    margin: 20px;
+    border: 15px solid #fff;
+    box-shadow: 0;
+}
+.support .content .box .imgBx
+{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.support .content .box .imgBx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.team .content
+{ 
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.team .content .box
+{
+    width: 250px;
+    margin: 15px;
+}
+.team .content .box .imgBx
+{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.team .content .box .imgBx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.team .content .box .text
+{
+    padding: 15px 0 5px;
+}
+.team .content .box .text h3
+{
+    font-weight: 400;
+    color: #111;
+}
+.testimonials
+{
+   background: url(bg2.jpg); 
+   background-size: cover;
+}
+.white .titleText, 
+.white p
+{
+    color: #fff;
+}
+.testimonials .content
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.testimonials .content .box
+{
+    width: 340px;
+    margin: 20px;
+    padding: 40px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -ms-flex-direction: column;
+}
+.testimonials .content .box .imgBx
+{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.testimonials .content .box .imgBx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.testimonials .content .box .text
+{
+    text-align: center;
+}
+.testimonials .content .box .text p
+{
+    color: #666;
+    font-style: italic;
+}
+.testimonials .content .box .text h3
+{
+    margin-top: 20px;
+    font-size: 1em;
+    font-weight: 600;
+    color: #ff0157;
+}
+
+.contact{
+    background: url("images/contact.jpg");
+    object-fit: none;
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+.contactForm
+{
+    
+    padding: 75px 50px;
+    background:#555;
+    box-shadow: 0 15px 50px black;
+    max-width: 500px;
+    margin-top: 50px;
+
+}
+
+.contactForm h3
+{
+    color:white;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.contactForm .inputBox
+{
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.contactForm .inputBox input
+.contactForm .inputBox textarea
+{
+    width: 100%;
+    border: 1px solid #555;
+    padding: 10px;
+    color:white;
+    outline: none;
+    font-size: 16px;
+    font-weight: 300;
+    resize: none;
+}
+
+.contactForm .inputBox input[type="submit"]
+{
+    font-size: 1em;
+    color:white;
+    background: #ff0157;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    max-width: 100px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    
+}
+}
+@media (max-width: 480px)
+{
+    .banner .content h2 
+    {
+        font-size: 2.2em;
+        color: #fff;
+    }
+}
